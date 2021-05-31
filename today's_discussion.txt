@@ -1,0 +1,37 @@
+1) Exception Handling
+2) Thread 
+3) File Handling 
+4) JDBC 
+------------------------------------------------------------------------
+
+We need to read the records which are related to some package info. 
+Package id needs to be validated for id with 3 digits followed by / and 
+than 3 characters are considered as valid , only those records should
+be read and stored in the database table after performing some
+calculations. If the package id is invalid , exception will be thrown 
+and called InvalidPackageException which is a user defined exception.
+(cusomiozed exception ).
+-------------------------------------------------------------------------
+data is present in package.txt
+
+
+------------------------------------------------------------------
+Let us read the content from an employee.txt file and store it in a table called employee_details.
+We will calculate hra from the basic and store it in the table. For employee id , we need to validate as
+the first 3 characters should be cts only. Otherwise user defined exception will be thrown.
+
+
+data is present in employee.txt
+User defined exception class is InvalidIdException.  
+
+
+Design the model class called employee. Model classes represents the business objects. So if we have scenerio
+related with employee working in Projects. We will have model classes like Employee, Project etc.
+
+In our example the model class will be Employee. 
+We have created a connection handler which is returning an object of Connection.
+
+
+
+We are reading from a file and storing it in a database table and we are doing some calculation for HRA and
+if the id is not starting with CTS, exception is thrown.

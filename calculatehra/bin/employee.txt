@@ -1,0 +1,4 @@
+cts-001,Ram,Manager,Sales,30000
+cts-002,Atin,Clerk,HRA,10000
+cts-003,Roja,Analyst,IT,25000
+abc-004,Anand,AsstMgr,Sales,24000
